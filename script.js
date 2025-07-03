@@ -52,8 +52,8 @@ const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.25;
 controls.screenSpacePanning = false;
-controls.minDistance = 1;
-controls.maxDistance = 10;
+controls.minDistance = 10;
+controls.maxDistance = 100;
 controls.maxPolarAngle = Math.PI / 2;
 
 // Ajusta el tamaño del renderizador al tamaño de la ventana
